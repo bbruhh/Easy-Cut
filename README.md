@@ -4,7 +4,7 @@
 
 _Alexander Mathis, Pranav Mamidanna, Kevin M. Cury, Taiga Abe, Venkatesh N. Murthy, Mackenzie Weygandt Mathis & Matthias Bethge_
 
-[[`densepose.org`](https://densepose.org)] [[`nature neuroscience`](https://www.nature.com/articles/s41593-018-0209-y)] [[`arXiv`](https://arxiv.org/abs/1804.03142)] [[`BibTeX`](#CitingDeepLabCut)]
+[[`DeepLabCut`](http://www.mousemotorlab.org/deeplabcut)] [[`nature neuroscience`](https://www.nature.com/articles/s41593-018-0209-y)] [[`arXiv`](https://arxiv.org/abs/1804.03142)] [[`BibTeX`](#CitingDeepLabCut)]
 
 
 DeepLabCut is a toolbox for markerless tracking of body parts of animals. We can train the neural network to learn the movements of rats, humans, robots, basically any thing! This repository is DeepLabCut. But, we do intergrate it with Google Colab and add a few more features to make it very easy for everyone to use! Also, we can make full use of the Tesla K80 GPU that Colab offers. 
