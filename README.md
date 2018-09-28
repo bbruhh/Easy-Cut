@@ -107,6 +107,6 @@ If you use DeepLabCut, please use the following BibTeX entry.
        journal={Nature Neuroscience},
         year={2018},
         url={https://www.nature.com/articles/s41593-018-0209-y}
-}
+    }
 
 
