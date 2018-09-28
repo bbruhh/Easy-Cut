@@ -52,7 +52,6 @@ Following is a small flowchart for how DeepLabCut works:
 **Install --> Extract frames -->  Label training data -->  Train DeeperCut feature detectors -->  Apply your trained network to unlabeled data -->  Extract trajectories for analysis.**
 
 
-
 ## <a name="CitingDeepLabCut"></a>Citing DeepLabCut
 
 If you use DeepLabCut, please use the following BibTeX entry.
@@ -65,4 +64,36 @@ If you use DeepLabCut, please use the following BibTeX entry.
   institution={Nature Publishing Group}
   }
 ```
+
+
+## Code contributors:
+
+The entire credit of this repo should go to the following: 
+
+[Alexander Mathis](https://github.com/AlexEMG), [Mackenzie Mathis](https://github.com/MMathisLab), and the DeeperCut authors for the feature detector code. Edits and suggestions by [Jonas Rauber](https://github.com/jonasrauber), [Taiga Abe](https://github.com/cellistigs), [Hao Wu](https://github.com/fullerene12), [Jonny Saunders](https://github.com/sneakers-the-rat), [Richard Warren](https://github.com/rwarren2163) and [Brandon Forys](https://github.com/bf777). The feature detector code is based on Eldar Insafutdinov's TensorFlow implementation of [DeeperCut](https://github.com/eldar/pose-tensorflow).
+
+## References:
+
+    @inproceedings{insafutdinov2017cvpr,
+        title = {ArtTrack: Articulated Multi-person Tracking in the Wild},
+        author = {Eldar Insafutdinov and Mykhaylo Andriluka and Leonid Pishchulin and Siyu Tang and Evgeny Levinkov and Bjoern Andres and Bernt Schiele},
+        booktitle = {CVPR'17},
+        url = {http://arxiv.org/abs/1612.01465}
+    }
+    
+    @article{insafutdinov2016eccv,
+        title = {DeeperCut: A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model},
+        author = {Eldar Insafutdinov and Leonid Pishchulin and Bjoern Andres and Mykhaylo Andriluka and Bernt Schiele},
+        booktitle = {ECCV'16},
+        url = {http://arxiv.org/abs/1605.03170}
+    }
+    
+    @article{Mathisetal2018,
+      title={DeepLabCut: markerless pose estimation of user-defined body parts with deep learning},
+      author = {Alexander Mathis and Pranav Mamidanna and Kevin M. Cury and Taiga Abe  and Venkatesh N. Murthy and Mackenzie W. Mathis and Matthias Bethge},
+       journal={Nature Neuroscience},
+        year={2018},
+        url={https://www.nature.com/articles/s41593-018-0209-y}
+}
+
 
