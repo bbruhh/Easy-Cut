@@ -53,7 +53,7 @@ Following is a small flowchart for how DeepLabCut works:
 
 
 <p align="center">
-<img src="/Example/deeplabcutFig-01.png" width="70%">
+<img src="/Examples/deeplabcutFig-01.png" width="70%">
 </p>
 
 
