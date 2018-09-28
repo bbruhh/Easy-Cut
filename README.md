@@ -8,15 +8,16 @@ Below are a few examples of what DeepLabCut has to offer:
   <img src="/Examples/MATHIS_2018_fly.gif" />
 </div>
 
-
+<br />
 
 <div align="center">
   <img src="/Examples/MouseLocomotion_warren.gif" />
 </div>
 
+<br />
 
 <div align="center">
   <img src="/Examples/brownhorse.gif" />
 </div>
 
-
+<br />
