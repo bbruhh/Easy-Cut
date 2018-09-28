@@ -43,6 +43,16 @@ Below are a few examples of what DeepLabCut has to offer:
 
 ---
 
+## Understanding DeepLabCut
+
+This project is suitable for anyone who wants to extract the position of different body part of animals performing some kind of a behaviour. The positions can be extracted from images/videos. DeepLabCut trains feature detectors and then trains a deep network to analyze the other videos. 
+
+Following is a small flowchart for how DeepLabCut works: 
+
+**Install --> Extract frames -->  Label training data -->  Train DeeperCut feature detectors -->  Apply your trained network to unlabeled data -->  Extract trajectories for analysis.**
+
+
+
 ## <a name="CitingDeepLabCut"></a>Citing DeepLabCut
 
 If you use DeepLabCut, please use the following BibTeX entry.
