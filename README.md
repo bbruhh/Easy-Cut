@@ -4,4 +4,6 @@ DeepLabCut is a toolbox for markerless tracking of body parts of animals. We can
 
 Below are a few examples of what DeepLabCut has to offer:
 
-
+<div align="center">
+  <img src="/Examples/brownhorse.gif" />
+</div>
