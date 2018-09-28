@@ -52,6 +52,18 @@ Following is a small flowchart for how DeepLabCut works:
 **Install --> Extract frames -->  Label training data -->  Train DeeperCut feature detectors -->  Apply your trained network to unlabeled data -->  Extract trajectories for analysis.**
 
 
+<p align="center">
+<img src="docs/images/deeplabcutFig-01.png" width="70%">
+</p>
+
+
+## Support:
+
+For questions and discussions, join the Slack user group: ([deeplabcut.slack.com](https://deeplabcut.slack.com)) (please email [Mackenzie](mackenzie@post.harvard.edu) to join!).
+
+If you are having issues, please let us know!
+
+
 ## Code contributors:
 
 The entire credit of this repo should go to the following: 
