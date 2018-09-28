@@ -53,6 +53,6 @@ If you use DeepLabCut, please use the following BibTeX entry.
   author={Mathis, Alexander and Mamidanna, Pranav and Cury, Kevin M and Abe, Taiga and Murthy, Venkatesh N and Mathis, Mackenzie Weygandt and Bethge, Matthias},
   year={2018},
   institution={Nature Publishing Group}
-}
+ }
 ```
 
