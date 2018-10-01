@@ -56,6 +56,30 @@ Following is a small flowchart for how DeepLabCut works:
 <img src="/Examples/deeplabcutFig-01.png" width="70%">
 </p>
 
+## Google Colab Framework
+
+If you would like to execute DeepLabCut on Colab, please follow the link
+
+[Google Colab Installation Guide](docs/colab_installation.md)
+
+If you would like to execute DeepLabCut on your system, please read the following sections. 
+
+## Installation guide and Hardware and Software Requirements:
+
+[Installation guide](docs/installation.md)
+
+## Demo (and detailed) user instructions for training and testing the network:
+
+[User guide (detailed walk-through with labeled example data)](docs/demo-guide.md)
+
+[Quick guide for training a tailored feature detector network](docs/Quicktraining-guide.md)
+
+[Quick guide for evaluation of feature detectors (on train & test set)](docs/Quickevaluation-guide.md)
+
+## User instructions for analyzing data (with a trained network):
+
+[Analysis guide: How to use a trained network to analyze videos?](docs/analysis-tools.md)
+
 
 ## Support:
 
