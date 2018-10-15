@@ -62,6 +62,8 @@ data
 
 Now, you can upload the `image_NN_input` folder and the `labels_NN_input` folder to your personal drive. This is the data you will be using to train your model. 
 
+The `data_processor.py` is in the utils folder. 
+
 ## Google Colab Framework
 
 
