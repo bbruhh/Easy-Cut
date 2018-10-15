@@ -27,3 +27,9 @@ data
 
 Basically `<im-N-folder>` and it's corresponding XML file should have the same name. 
 
+We then run the `data_processor.py` script. 
+
+`python3 data_processor.py`
+
+
+
