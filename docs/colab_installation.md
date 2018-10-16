@@ -66,6 +66,12 @@ The `data_processor.py` is in the utils folder.
 
 ## Google Colab Framework
 
+If you are using Google Colab for the first time, you can install Google Colab by going to your Google drive, right-click anywhere on the empty space go to `More --> Connect More Apps` and then find Google Colab and install it. After installation you can open a new notebook by right clicking and going to `More --> Colaboratory`.
+
+You can open a notebook in any folder you want. 
+
+Once you open a notebook, go to the `Runtime` option, click on the `Change Runtime Type` and then choose Python3 as the runtime and GPU as the hardware accelerator. Now our environment is set. 
+
 
 
 
