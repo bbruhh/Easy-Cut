@@ -24,7 +24,7 @@ sys.path.append(subfolder)
 sys.path.append(subfolder + "pose-tensorflow")
 sys.path.append(subfolder + "Generating_a_Training_Set")
 
-from myconfig import Task, date, Shuffles, scorer, TrainingFraction
+from myconfig_new import Task, date, Shuffles, scorer, TrainingFraction
 
 # Deep-cut dependencies
 from config import load_config
