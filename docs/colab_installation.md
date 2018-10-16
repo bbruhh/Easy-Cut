@@ -55,9 +55,9 @@ data
 |     |_.... (in DLC format)
 |     |_<imgN>.jpg (in DLC format)
 |_labels_NN_input
-|  |_CollectedData_labeller_1.csv
-|  |_CollectedData_labeller_1.h5
-|
+   |_CollectedData_labeller_1.csv
+   |_CollectedData_labeller_1.h5
+
 ```
 
 Now, you can upload the `image_NN_input` folder and the `labels_NN_input` folder to your personal drive. This is the data you will be using to train your model. 
@@ -119,3 +119,5 @@ from google.colab import drive
 # This will prompt for authorization.
 drive.mount('/content/drive')
 ```
+
+
