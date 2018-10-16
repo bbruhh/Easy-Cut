@@ -25,7 +25,7 @@ sys.path.append(os.path.join(subfolder, "Generating_a_Training_Set"))
 
 import auxiliaryfunctions
 import pickle
-from myconfig import Task, date, scorer, Shuffles, TrainingFraction, snapshotindex, pcutoff, plotting, colormap
+from myconfig_new import Task, date, scorer, Shuffles, TrainingFraction, snapshotindex, pcutoff, plotting, colormap
 
 if plotting==True:
     import matplotlib
