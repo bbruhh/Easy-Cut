@@ -72,6 +72,8 @@ You can open a notebook in any folder you want.
 
 Once you open a notebook, go to the `Runtime` option, click on the `Change Runtime Type` and then choose Python3 as the runtime and GPU as the hardware accelerator. Now our environment is set. 
 
+The below procedure can be found in the `colab_notebook_easycut.ipynb` for execution. 
+
 We first start by checking the how much GPU memory is available, it can be done by, 
 
 ```
@@ -95,8 +97,25 @@ def printm():
 
 and then by calling the function
 
-
 ```
 printm()
 ```
 
+Sometimes, you may get lesser memory assigned to you. In that case you run
+
+```
+!kill -9 -1
+```
+
+in a new cell. That will restart you Colab Environment and you may be assigned to a GPU with more memory. 
+
+
+Since we will be using Google Drive, for storing the data, we mount Google Drive as a folder in Colab. The following command will ask for authorization, and will ask you copy paste a code into the Colab notebook and press Enter.   
+
+
+```
+from google.colab import drive
+
+# This will prompt for authorization.
+drive.mount('/content/drive')
+```
