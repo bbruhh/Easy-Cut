@@ -1,4 +1,4 @@
-# Running Easy-Cut on Google Colab
+## Running Easy-Cut on Google Colab
 
 While using Google Colab, you will not need to pre-install anything. The whole method can easily run on the Colab Notebook. The first step is to have the data. Our lab used the [Vatic Annotation tool](https://github.com/cvondrick/vatic), to create a dataset. The Vatic Annotaion Tool breaks the video frame by frame and you can easily annotate the body parts you require and can download the frames and keypoints as XML files.
 
@@ -72,8 +72,31 @@ You can open a notebook in any folder you want.
 
 Once you open a notebook, go to the `Runtime` option, click on the `Change Runtime Type` and then choose Python3 as the runtime and GPU as the hardware accelerator. Now our environment is set. 
 
+We first start by checking the how much GPU memory is available, it can be done by, 
+
+```
+# memory footprint support libraries/code
+!ln -sf /opt/bin/nvidia-smi /usr/bin/nvidia-smi
+!pip install gputil
+!pip install psutil
+!pip install humanize
+import psutil
+import humanize
+import os
+import GPUtil as GPU
+GPUs = GPU.getGPUs()
+# XXX: only one GPU on Colab and isn’t guaranteed
+gpu = GPUs[0]
+def printm():
+  process = psutil.Process(os.getpid())
+  print("Gen RAM Free: " + humanize.naturalsize( psutil.virtual_memory().available ), " I Proc size: " + humanize.naturalsize( process.memory_info().rss))
+  print("GPU RAM Free: {0:.0f}MB | Used: {1:.0f}MB | Util {2:3.0f}% | Total {3:.0f}MB".format(gpu.memoryFree, gpu.memoryUsed, gpu.memoryUtil*100, gpu.memoryTotal))  
+```
+
+and then by calling the function
 
 
-
-
+```
+printm()
+```
 
